@@ -1,0 +1,142 @@
+/*
+Theme Name: Dummy Theme
+Theme URI: https://danmobbs.co/
+Author: Dan Mobbs
+Author URI: https://danmobbs.co/
+Description: A dummy Theme for Dummies :D  
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Nothing...
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Tested up to: 5.4
+*/
+
+/*GLOBEL*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  background-color: var(--main-bk-color);
+}
+
+/*VARIABLES*/
+:root {
+  --main-body-color: #f8edeb;
+  --primary-nav: #222;
+
+  --maincolor: #f7cf6bf8;
+
+  --text-light: #fff;
+  --text-dark: #444;
+
+  --links: #2a9d8f;
+  --linkshover: #264653;
+  --highlight: #e9c46a;
+  --hightlighthover: #faa307;
+}
+
+/*UTILITIES*/
+img {
+  max-width: 100%;
+}
+section {
+  padding: 8rem 0;
+}
+
+/*CONTAINERS*/
+.container {
+  width: 960px;
+  margin: 0 15px;
+}
+
+/*NAVBAR*/
+nav {
+  background-color: var(--primary-nav);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+  margin-right: 15px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.navbar li a:hover {
+  transition: 0.5s;
+  color: #ddd;
+}
+
+/*LOGO*/
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/*HERO__IMG*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/hero-img.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-light);
+  text-align: center;
+  justify-content: space-around;
+}
+.intro__text {
+  font-style: italic;
+  font-size: 32px;
+}
+.hero__heading {
+  font-size: 64px;
+  margin: 10px 0 40px 0;
+}
+.hero__btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  font-size: 22px;
+  background-color: var(--highlight);
+  text-align: center;
+  cursor: pointer;
+}
+.hero__btn:hover {
+  background-color: var(--hightlighthover);
+  color: white;
+  transition: 0.5s;
+  font-size: 22px;
+}
+
+/*MAIN CONTENT*/
+
+/*FOOTER*/
+
+/*MEDIA__QUERIES*/
+/*OTHER*/
