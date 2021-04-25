@@ -17,10 +17,21 @@
     <section>
         <div class="container">
             <h1 class="services__h1">Services</h1>
-            <div class="testimonials__container">
-                <div class="testimonial">
-                    <div class="testimonial_content">
-                        <img src="https://via.placeholder.com/150" alt="">
+            <p class="services__p">Lorem ipsum dolor sit amet, consectetur</p>
+            <div class="box__container">
+                <div class="box">
+                    <div class="box__content">
+                        <i class="icon fas fa-chair"></i>
+                        <h2 class="box__title">Service</h2>
+                        <p class="box__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
+                            sci sint soluta assumenda! Minima tempora incidunt nam, temporibu
+                        </p>
+                    </div>    
+                </div>   
+                <div class="box">
+                    <div class="box__content">
+                        <i class="icon fas fa-chair"></i>
                         <h2 class="box__title">Service</h2>
                         <p class="box__text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
@@ -28,23 +39,9 @@
                         </p>
                     </div>    
                 </div>
-            </div>    
-            <div class="box__container">
                 <div class="box">
                     <div class="box__content">
-                        <img src="https://via.placeholder.com/150" alt="">
-                        <h2 class="box__title">Service</h2>
-                        <p class="box__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
-                            sci sint soluta assumenda! Minima tempora incidunt nam, temporibu
-                        </p>
-                    </div>    
-                </div>
-            </div>    
-            <div class="box__container">
-                <div class="box">
-                    <div class="box__content">
-                        <img src="https://via.placeholder.com/150" alt="">
+                        <i class="icon fas fa-chair"></i>
                         <h2 class="box__title">Service</h2>
                         <p class="box__text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
@@ -56,46 +53,20 @@
         </div>
     </section>
     
-    <!--Testimoai-->
-    <section>
+    <!--Testimonial-->
+    <section class="light-bk">
         <div class="container">
-            <h1 class="content__h1">Testimonial</h1>
+            <h1 class="testimonials__h1">Testimonial</h1>
             <div class="testimonials__container">
+               
                 <div class="testimonial">
                     <div class="testimonial_content">
-                        <h2 class="testimonial__title">Service</h2>
+                        <img class="testimonial__img" src="https://via.placeholder.com/150" alt="">
                         <p class="testimonial__text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
                             sci sint soluta assumenda! Minima tempora incidunt nam, temporibu
-                        </p>
-                        <img class="testimonial__img" src="https://via.placeholder.com/150" alt="">
-                        <p>Mary Jane - <span class="testimonial__website"><a href="#">Levens Hall</a></span>
-                    </div>    
-                </div>
-            </div>    
-            <div class="testimonials__container">
-                <div class="testimonial">
-                    <div class="testimonial_content">
-                        <h2 class="testimonial__title">Service</h2>
-                        <p class="testimonial__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
-                            sci sint soluta assumenda! Minima tempora incidunt nam, temporibu
-                        </p>
-                        <img class="testimonial__img" src="https://via.placeholder.com/150" alt="">
-                        <p>Mary Jane - <span class="testimonial__website"><a href="#">Levens Hall</a></span>
-                    </div>    
-                </div>
-            </div>    
-            <div class="testimonials__container">
-                <div class="testimonial">
-                    <div class="testimonial_content">
-                        <h2 class="testimonial__title">Service</h2>
-                        <p class="testimonial__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, nisi culpa a
-                            sci sint soluta assumenda! Minima tempora incidunt nam, temporibu
-                        </p>
-                        <img class="testimonial__img" src="https://via.placeholder.com/150" alt="">
-                        <p>Mary Jane - <span class="testimonial__website"><a href="#">Levens Hall</a></span>
+                        </p>                        
+                        <p class="testimonial-sub__text">Mary Jane - <span class="testimonial__website"><a href="#">Levens Hall</a></span>
                     </div>    
                 </div>
             </div> 
@@ -103,8 +74,8 @@
     </section>
 
     <!--Contact Form-->
-    <section>
-       <!--add a form from contact 7-->
-    </section>     
+    <!-- <section>
+    add a form from contact 7
+    </section>      -->
 
 <?php get_footer() ;?>

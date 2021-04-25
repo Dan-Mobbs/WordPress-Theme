@@ -2,6 +2,10 @@
 
 function dsm_styles() {
     
+    //Normalize Styles    
+    wp_register_style("Normalize", get_template_directory_uri() . "/dist/normalize.css", array(), false, 'all');
+    wp_enqueue_style("Normalize");
+    
     //Custom Styles    
     wp_register_style("customstyle", get_template_directory_uri() . "/style.css", array(), false, 'all');
     wp_enqueue_style("customstyle");
